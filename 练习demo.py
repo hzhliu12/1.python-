@@ -12,4 +12,4 @@ with open("makenew.txt",'a+')as f:#“a” 以“追加”模式打开
              #  line_new = line_new.ljust(10)##这个我还是不太明白怎么做
             #如何再+行号呢？？？？？？？
          #print(line_new)
-    f.writelines(lines)
+    f.writelines(lines)#将字符串序列写入文件
