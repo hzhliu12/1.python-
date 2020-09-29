@@ -20,3 +20,4 @@ items.sort(key=lambda x:x[1], reverse=True) #将第二维数据的值进行排�
 for i in range(10):
     word, count = items[i]
     print("{0:<10}{1:>5}".format(word,count))#打印单词和对应出现的次数。
+close()
